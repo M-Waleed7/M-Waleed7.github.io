@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Under the Ordinary Automation</title>
+<meta name="description" content="Under the Ordinary Automation is a private tool the owner of the Under the Ordinary YouTube channel uses to upload, schedule, analyze and improve the channel's videos.">
+<style>
+  :root { --bg:#ffffff; --fg:#1a1a1a; --muted:#5b5b5b; --line:#e4e4e4; --accent:#0b57d0; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#111214; --fg:#ececec; --muted:#a3a3a3; --line:#2a2b2e; --accent:#8ab4f8; } }
+  body { margin:0; background:var(--bg); color:var(--fg); font:17px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  main { max-width:720px; margin:0 auto; padding:56px 20px 40px; }
+  h1 { font-size:2rem; line-height:1.2; margin:0 0 8px; letter-spacing:-.01em; }
+  h2 { font-size:1.15rem; margin:36px 0 8px; }
+  .lede { color:var(--muted); font-size:1.1rem; margin:0 0 28px; }
+  a { color:var(--accent); }
+  ul { padding-left:1.2em; }
+  footer { border-top:1px solid var(--line); margin-top:48px; padding-top:16px; color:var(--muted); font-size:.9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Under the Ordinary Automation</h1>
+  <p class="lede">A private content-automation system for the <strong>Under the Ordinary</strong> YouTube channel.</p>
+
+  <h2>What it is</h2>
+  <p>Under the Ordinary Automation is an internal tool that only the owner of the Under the Ordinary YouTube channel uses. It isn't offered to the public, and nobody else can sign up or connect an account.</p>
+
+  <h2>What it does</h2>
+  <ul>
+    <li><strong>Video uploads:</strong> it uploads videos that the channel owner has reviewed and approved, along with their titles, descriptions, thumbnails and captions.</li>
+    <li><strong>Scheduling:</strong> it sets the privacy status and the scheduled publish time on the channel's videos, following the owner's publishing calendar.</li>
+    <li><strong>Analytics:</strong> it reads the channel's YouTube Analytics (views, watch time, audience retention and subscriber changes) so the owner can see them on a private dashboard.</li>
+    <li><strong>Content optimization:</strong> it studies how the channel's own videos perform and suggests topics, titles and script improvements. The owner reviews every suggestion.</li>
+  </ul>
+
+  <h2>How it uses Google data</h2>
+  <p>The application connects to the YouTube Data API and the YouTube Analytics API through Google OAuth, using permissions the channel owner granted. It only reads and changes data for the owner's own channel, and only to provide the features above. For full details on what data it accesses, how that data is stored and protected, and how to revoke access, see the <a href="https://m-waleed7.github.io/under-the-ordinary/privacy-policy/">Privacy Policy</a>.</p>
+
+  <h2>Contact</h2>
+  <p>For questions about this application, open an issue at <a href="https://github.com/M-Waleed7/M-Waleed7.github.io/issues">github.com/M-Waleed7/M-Waleed7.github.io/issues</a>.</p>
+
+  <footer>
+    <p><a href="https://m-waleed7.github.io/under-the-ordinary/privacy-policy/">Privacy Policy</a></p>
+    <p>Under the Ordinary Automation uses YouTube API Services. It is not affiliated with, endorsed by or sponsored by YouTube or Google. YouTube is a trademark of Google LLC.</p>
+  </footer>
+</main>
+</body>
+</html>

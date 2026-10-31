@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Under the Ordinary Automation</title>
+<meta name="description" content="How Under the Ordinary Automation accesses, uses, stores, shares and deletes Google and YouTube data.">
+<style>
+  :root { --bg:#ffffff; --fg:#1a1a1a; --muted:#5b5b5b; --line:#e4e4e4; --accent:#0b57d0; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#111214; --fg:#ececec; --muted:#a3a3a3; --line:#2a2b2e; --accent:#8ab4f8; } }
+  body { margin:0; background:var(--bg); color:var(--fg); font:17px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:56px 20px 40px; }
+  h1 { font-size:2rem; line-height:1.2; margin:0 0 8px; letter-spacing:-.01em; }
+  h2 { font-size:1.15rem; margin:36px 0 8px; }
+  .meta { color:var(--muted); margin:0 0 28px; }
+  a { color:var(--accent); overflow-wrap:anywhere; }
+  ul { padding-left:1.2em; }
+  footer { border-top:1px solid var(--line); margin-top:48px; padding-top:16px; color:var(--muted); font-size:.9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Privacy Policy</h1>
+  <p class="meta">Under the Ordinary Automation · Effective 28 October 2026</p>
+
+  <p>Under the Ordinary Automation (“the application”) is a private tool that the owner of the Under the Ordinary YouTube channel (“the owner”) uses to upload, schedule, analyze and improve the channel's videos. This policy explains what Google and YouTube data the application accesses, and how it uses, stores, shares, protects and deletes that data. The application is not offered to the public. The owner is its only user.</p>
+
+  <h2>1. YouTube API Services</h2>
+  <p>The application uses YouTube API Services: the YouTube Data API, the YouTube Analytics API and the YouTube Reporting API. By using the application, the owner agrees to be bound by the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>. Google's handling of data is described in the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+
+  <h2>2. Information the application accesses</h2>
+  <p>The owner connects the application to the channel through Google OAuth and grants these permissions:</p>
+  <ul>
+    <li><strong>Manage your YouTube account</strong> (<code>youtube</code>). This is used to read the channel's ID, title, description, thumbnails and public statistics, to list and read the channel's own videos and their metadata, and to upload videos, thumbnails and captions and update their metadata, privacy status and scheduled publish time.</li>
+    <li><strong>View YouTube Analytics reports</strong> (<code>yt-analytics.readonly</code>). This is used to read analytics for the owner's channel and videos: views, watch time, average view duration and percentage, audience retention, subscribers gained and lost, likes, comments, shares, and, where YouTube provides them, impressions and click-through rate.</li>
+  </ul>
+  <p>For topic research, the application also reads <strong>public</strong> YouTube search results and public video statistics through the YouTube Data API.</p>
+  <p>The application does <strong>not</strong> access the owner's Google password, Gmail, contacts, Google Drive or any other Google service. It does not collect data about the channel's viewers, apart from the aggregated, anonymous statistics that YouTube Analytics provides.</p>
+
+  <h2>3. How the information is used</h2>
+  <ul>
+    <li>To upload videos that the owner has approved, and to set their titles, descriptions, thumbnails, captions, privacy status and publish times.</li>
+    <li>To show the channel's analytics to the owner on a private, password-protected dashboard.</li>
+    <li>To analyze how the channel's own videos perform, and to suggest topics, titles and script improvements that the owner reviews.</li>
+    <li>To research possible video topics using public YouTube search results.</li>
+  </ul>
+  <p>The application only creates, changes or deletes content on the channel after the owner approves it, and new uploads are private by default. Google user data is used only to provide these features to the owner. It is never used for advertising, never sold, and never used to develop, improve or train generalized artificial-intelligence or machine-learning models.</p>
+
+  <h2>4. Sharing and third parties</h2>
+  <p>The application does not sell, rent or share Google user data, except in these cases:</p>
+  <ul>
+    <li><strong>AI analysis (Anthropic Claude).</strong> To write scripts and recommendations, the application sends Anthropic's Claude service the channel's video titles, descriptions, scripts and aggregated performance metrics. This happens through the owner's own Claude subscription. OAuth tokens and credentials are never sent. The owner has turned off the Claude account setting that would let Anthropic use this data for model training. Anthropic's handling of data is described in the <a href="https://www.anthropic.com/legal/privacy">Anthropic Privacy Policy</a>.</li>
+    <li><strong>Legal requirements.</strong> Data may be disclosed if the law requires it.</li>
+  </ul>
+  <p>The application's use and transfer of information received from Google APIs to any other app adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+  <h2>5. Storage and security</h2>
+  <ul>
+    <li>All data is stored on a private server that the owner controls. It isn't stored with any third-party cloud service.</li>
+    <li>OAuth access and refresh tokens are stored in a file that only the application's operating-system account can read. They are never kept in source code or version control, never written to logs, and never shown in the dashboard.</li>
+    <li>Analytics and content data are kept in a database that accepts only local connections. The dashboard requires a password login.</li>
+    <li>All communication with Google APIs uses encrypted HTTPS connections.</li>
+  </ul>
+
+  <h2>6. Cookies</h2>
+  <p>The application's private dashboard uses one strictly necessary session cookie to keep the owner signed in. The application doesn't use advertising or tracking cookies, and it doesn't place cookies on the devices of YouTube viewers.</p>
+
+  <h2>7. Retention and deletion</h2>
+  <ul>
+    <li>Analytics and metadata for the owner's channel are kept only while the owner's authorization is active. At least every 30 days, the application checks that its authorization is still valid and that stored videos still exist on YouTube. Data it can no longer refresh is deleted within 30 days.</li>
+    <li>Public data from YouTube search results, used for topic research, is refreshed or deleted within 30 days.</li>
+    <li>If the owner revokes access or asks for deletion, all stored Google user data (including tokens) is deleted as soon as possible and within 7 days.</li>
+    <li>Deleting data stored by this application does not delete anything on YouTube. To delete videos or other content on YouTube, use YouTube or YouTube Studio.</li>
+  </ul>
+
+  <h2>8. Revoking access</h2>
+  <p>Besides the deletion process above, you can revoke the application's access to your Google account at any time from the Google security settings page: <a href="https://security.google.com/settings/security/permissions">https://security.google.com/settings/security/permissions</a>. After access is revoked, the application can no longer reach the YouTube account, and its stored data is deleted as described in section 7.</p>
+
+  <h2>9. Children</h2>
+  <p>The application is not directed at children, and it doesn't knowingly collect personal information from children.</p>
+
+  <h2>10. Changes to this policy</h2>
+  <p>If this policy changes, the effective date above will be updated. If the application starts using Google data in a new way, the owner's consent will be obtained again before that happens.</p>
+
+  <h2>11. Contact</h2>
+  <p>Questions or complaints about this application's privacy practices: open an issue at <a href="https://github.com/M-Waleed7/M-Waleed7.github.io/issues">github.com/M-Waleed7/M-Waleed7.github.io/issues</a>. For deletion requests, the issue only needs to say that deletion is requested; do not post personal data in it.</p>
+
+  <footer>
+    <p><a href="https://m-waleed7.github.io/under-the-ordinary/">Under the Ordinary Automation</a></p>
+    <p>Not affiliated with, endorsed by or sponsored by YouTube or Google. YouTube is a trademark of Google LLC.</p>
+  </footer>
+</main>
+</body>
+</html>
